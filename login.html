@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Login</title>
+		<link rel="stylesheet" type="text/css" href="login.css">
+		<script language="JavaScript" type="text/javascript">
+			function checkuserPassword(form){
+				if(form.username.value==""){
+					alert("Please enter username");
+					return false;
+				}
+				if(form.password.value==""){
+					alert ("Please enter Password");
+					return false;
+				}
+				if(form.username.value=="abcd" && form.password.value=="abcde"){
+					alert("login Successful");
+					return true;
+				}
+				else{
+					alert("login failed");
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div class="login">
+			<h1>Login</h1>
+			<form onSubmit="return checkuserPassword(this)">
+				<table>
+					<tr>
+						<td>
+							<p>Username</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" name="username" placeholder="Enter Username">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<p>Password</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="password" name="password" placeholder="Enter password">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="submit" value="login">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="forgot.html">Forgot Password?</a><br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="sign.html">Don't have an account?</a>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,63 @@
+body{
+	font-family: latha;
+	color: white;
+	background: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25),rgba(0,0,0,0)), url(img1.jpg)no-repeat;
+	background-size: 2000px 950px;
+}
+.box{
+	width: 900px;
+	float: right;
+	border: 1px solid none;
+}
+.box ul li{
+	width: 120px;
+	float: left;
+	margin: 10px auto;
+	text-align: center;
+}
+.box ul li a{
+	text-decoration: none;
+	color: darkgray;
+}
+.box ul li:hover{
+	background-color: black;
+}
+.box ul li a:hover{
+	color:white;
+}
+.content{
+	width: 300px;
+	height: 539px;
+	background-color: transparent;
+	opacity: 0.9;
+	padding: 55px;
+}
+.content h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 100px;
+}
+.content h3{
+	background-color: transparent;
+	text-align: justify;
+	color: black;
+	font-weight: normal;
+}
+.content h2{
+	text-align: center;
+	text-trnsform: uppercase;
+	font-weight: normal;
+	margin: 40px auto;
+}
+.reservation form , input[type="button"]{
+	background-color: transparent;
+	color: white;
+	padding: 10px;
+	margin: -14px auto;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: center;
+}
+form, input[type="button"]:hover{
+	background-color: black;
+}

@@ -1,0 +1,70 @@
+body > *, main > * {
+	align-items: right;
+    justify-content: space-between;
+} 
+* { 
+    cmargin: 10px;
+    padding: 10px;
+} 
+header{ 
+  	text-align: center; 
+  	background: black; 
+  	color: white;
+  	font-size: 32px;
+} 
+main {
+	background-color: grey;
+}
+body, main, article {
+    display: flex;
+}
+body, article {
+    flex-direction: column; 
+    background-color: white; 
+    margin: 5px;
+}
+article {
+   	flex: 1 1 23%;
+}
+img {
+    width: 100%; 
+    background-color: #ccc;
+    padding: 0;
+    flex-basis: 5;
+}
+h1 {
+    margin: 0;
+}
+p {
+    flex: 1 0 auto;
+}
+nav{
+	width: 900px;
+	float: right;
+}
+nav ul li{
+	width: 120px;
+	float: left;
+	margin: 10px auto;
+	text-align: center;
+}
+nav ul li a{
+	text-decoration: none;
+	color: black;
+}
+nav ul li:hover{
+	background-color: black;
+}
+nav ul li a:hover{
+	color:white;
+}
+h3 span{
+	display: block;
+	font-size: 24px;
+	font-style: italic;
+	margin-bottom: -10px;
+}
+input[type="number"]{
+	width: 40px;
+	height: 5px;
+}

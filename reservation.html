@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Reservation</title>
+		<link rel="stylesheet" type="text/css" href="reservation.css">
+	</head>
+	<body>
+		<section class="content">
+			<h2>Book Your table</h2>
+			<div class="container">
+				<div class="image">
+				</div>
+				<div class="card-content">
+					<h3>Reservation</h3>
+					<form>
+						<div class="form-row">
+							<select name="days">
+								<option value="day-select">Select Day</option>
+								<option value="sunday">Sunday</option>
+								<option value="monday">Monday</option>
+								<option value="tuesday">Tuesday</option>
+								<option value="wednesday">Wednesday</option>
+								<option value="thursday">Thursday</option>
+								<option value="friday">Friday</option>
+								<option value="saturday">Saturday</option>
+							</select>
+							<select name="hours">
+								<option value="hour-select">Select Hour</option>
+								<option value="10">10:00</option>
+								<option value="12">12:00</option>
+								<option value="14">14:00</option>
+								<option value="16">16:00</option>
+								<option value="18">18:00</option>
+								<option value="20">20:00</option>
+								<option value="22">22:00</option>
+							</select>
+						</div>
+						<div class="form-row">
+							<input type="text" name="fullname" placeholder="Full Name">
+							<input type="number" name="phonenumber" placeholder="Phone Number">
+						</div>
+						<div class="form-row">
+							<input type="number" name="persons" placeholder="How many Persons?"min="1">
+							<input type="submit" value="Book Table" onclick="alert('Table Booked')">
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		
+	</body>
+</html>

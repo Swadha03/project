@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registration</title>
+		<link rel="stylesheet" type="text/css" href="sign.css">
+		<script type="text/javascript" src="signup.js"></script>
+	</head>
+	<body>
+		<div class="signup-box">
+			<h1>Sign Up</h1>
+			<form onSubmit="return checkSignupForm(this)">
+				<label>First Name</label>
+				<input type="text" name="firstname" placeholder="Enter your first name">
+				<label>Last Name</label>
+				<input type="text" name="lastname" placeholder="Enter ypur last name">
+				<label>Email</label>
+				<input type="email" name="email" placeholder="Enter your email">
+				<label>Phone number</label>
+				<input type="number" name="phonenumber" placeholder="Enter your phone  number">
+				<label>Password</label>
+				<input type="password" name="password1" placeholder="Enter your password">
+				<label>Confirm Password</label>
+				<input type="password" name="password2" placeholder="Confirm your password">
+				<input type="submit" value="submit">
+			</form>
+			<p>By clicking the Sign up button, you agree to our<br><a href="#">Terms and Conditions</a> and <a href="#">Policy Privacy</a></p>
+		</div>
+		<p class="para-2">Already have an account?<a href="login.html">Login here</a></p>
+	</body>
+</html>
